@@ -125,7 +125,3 @@ Is either counter zero?
 - `Player.is_computer` refers to `_is_computer`, but the constructor does **not** assign that attribute (its assignment is commented out). The game does not currently access this property, so ordinary gameplay is unaffected; accessing the property directly would raise `AttributeError`.
 - The prompt says “Press any key,” but Python's `input()` requires the user to press **Enter** to submit.
 - This is an educational game, not a secure or competitive random-number system.
-
-## Interview-ready summary
-
-> I built a command-line dice game in Python to practice object-oriented design. I separated random dice generation, player state management, and game orchestration into three classes. Each round compares two random rolls and updates the players' counters. The game loop ends when one player's counter reaches zero. This helped me practice encapsulation, composition, methods, properties, and control flow.
